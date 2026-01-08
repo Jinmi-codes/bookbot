@@ -24,9 +24,8 @@ def count_chars(path):
     return count
 def helper(item):
     return item['num']
+    
 def sorter(dict):
-
-   
     list_of_dicts = []
     for pair in dict:
         list_of_dicts.append({"char":pair, "num":dict[pair]})
